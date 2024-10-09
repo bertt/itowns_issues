@@ -26,3 +26,6 @@ https://www.itowns-project.org/itowns/examples/3dtiles_loader.html?tileset=https
 
 "Failed to load tile at url "content/content_1__0_0_undefined.glb"."
 
+3] Bedoin Cube
+
+https://bertt.github.io/itowns_issues/bedoin_cube/examples/index.html
