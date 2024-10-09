@@ -1,0 +1,29 @@
+{
+  "asset" : {
+    "version" : "1.1"
+  },
+  "geometricError" : 1024.0,
+  "root" : {
+     "transform" : 
+	 [ 14.499163085582246, 3.8437312364015632, 0, 0, 
+	-2.4679767668928676, 9.309599301773163, 11.499584841136729, 0, 
+	2.946754230635144, -11.115623735208723, 9.631175861830078, 0, 
+	1254719.6284770055, -4733001.191051192, 4073474.3124405243, 1],
+    "boundingVolume" : {
+      "box" : [ 0.5, 0.5, 0.5, 0.5, 0.0, 0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.5 ]
+    },
+    "geometricError" : 32.0,
+    "refine" : "ADD",
+    "content" : {
+      "uri" : "content/content_{level}__{x}_{y}_{z}.glb"
+    },
+    "implicitTiling" : {
+      "subdivisionScheme" : "OCTREE",
+      "subtreeLevels" : 3,
+      "availableLevels" : 6,
+      "subtrees" : {
+        "uri" : "subtrees/{level}.{x}.{y}.{z}.subtree"
+      }
+    }
+  }
+}
