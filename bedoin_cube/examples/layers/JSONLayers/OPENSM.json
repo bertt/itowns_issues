@@ -9,6 +9,10 @@
             "name":"OpenStreetMap",
             "url": "http://www.openstreetmap.org/"
         },
-        "tileMatrixSet": "PM"
+        "tileMatrixSet": "PM",   
+        "zoom": {
+            "min": 1,
+            "max": 18
+        }
     }
 }
